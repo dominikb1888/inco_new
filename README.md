@@ -28,19 +28,22 @@ This course relies on two streams of content from different resources for each o
 
 ### Backend: Web Application Development
 
-The web application development part of the course closely follows: "0 to Production in Rust" by Luca Palmieri: [](http://digital.bib-bvb.de/webclient/DeliveryManager?custom_att_2=simple_viewer&pid=21544849)
+The web application development part of the course closely follows: ["0 to Production in Rust" by Luca Palmieri](http://digital.bib-bvb.de/webclient/DeliveryManager?custom_att_2=simple_viewer&pid=21544849)
 
-- Web Sockets in Actix: [](https://agmprojects.com/blog/building-a-rest-and-web-socket-api-with-actix.html)
+- [Web Sockets in Actix](https://agmprojects.com/blog/building-a-rest-and-web-socket-api-with-actix.html)
 
 
 
 ### Frontend: Data Visualization
 
-The data visualization part of the course closely follows "Visualization Analysis and Design" by Tamara Munzner:
+The data visualization part of the course closely follows:
 
-- General Resource for the book: [](https://www.cs.ubc.ca/~tmm/vadbook/)
-- Undergraduate Course at UBC: [](https://www.students.cs.ubc.ca/~cs-436v/22Jan/)
-- Video Sessions on YouTube: [](https://www.youtube.com/watch?v=1GhZisgc6DI&list=PLT4XLHmqHJBdB24LAQPk_PV7wrwpJFh5a)
+["Visualization Analysis and Design" by Tamara Munzner](https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=1664615&query=visualization)
+
+
+- [Companion Website](https://www.cs.ubc.ca/~tmm/vadbook/)
+- [Undergraduate Course at UBC](https://www.students.cs.ubc.ca/~cs-436v/22Jan/)
+- [Video Sessions on YouTube](https://www.youtube.com/watch?v=1GhZisgc6DI&list=PLT4XLHmqHJBdB24LAQPk_PV7wrwpJFh5a)
 
 
 
