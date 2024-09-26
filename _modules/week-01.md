@@ -1,23 +1,10 @@
 ---
-title: Introduction to Java
+title: Advanced HTML, CSS, and JS
 ---
 
-Sep 28
-: [Java & Git](#)
-  : [1.1](#)
+Oct 7
+: [HTML, CSS, JavaScript](https://www.theodinproject.com/paths/full-stack-javascript/courses/advanced-html-and-css)
+  : [Responsive D3.js](https://medium.com/@louisemoxy/a-simple-way-to-make-d3-js-charts-svgs-responsive-7afb04bc2e4b)
+: Hands-on Project
+  : [Heartbeat Viz: A first static chart](https://github.com/dominikb1888/inco_new/prototypes)
 
-Sep 29
-: **Section**{: .label .label-purple }[Intro to Java](#)
-  : [Solution](#)
-
-Sep 30
-: [Variables & Objects](#)
-  : [1.2](#), [2.1](#)
-
-Oct 1
-: **Lab**{: .label .label-purple } [Intro to Java](#)
-
-Oct 2
-: [Tracing, IntLists, & Recursion](#)
-  : [2.1](#)
-: **HW 1 due**{: .label .label-red }

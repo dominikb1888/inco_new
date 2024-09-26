@@ -1,6 +1,6 @@
 ---
 layout: home
-title: INCO
+title: Innovation and Complexity Management
 nav_exclude: true
 permalink: /:path/
 seo:
@@ -52,7 +52,30 @@ The data visualization part of the course closely follows:
 - D3.js: [D3 in Depth](https://d3indepth.com/), [D3.js in Action](https://ebookcentral.proquest.com/lib/th-deggendorf/reader.action?docID=6642501&query=d3.js&ppg=1), [Interactive Data Visualization for the Web](https://www.oreilly.com/library/view/interactive-data-visualization/9781491921296/)
 - Python: [Practical Data Science with Python](https://ebookcentral.proquest.com/lib/th-deggendorf/reader.action?docID=6739165), [Python Data Analysis](https://ebookcentral.proquest.com/lib/th-deggendorf/reader.action?docID=6462897)
 
+## Phases
 
+1. Technical Basics and Use Case Definition (October)
+2. Building the System Components (November)
+3. Connecting all Components (December)
+4. Analyzing, Testing, and Optimizing (January)
+
+## Schedule:
+
+| Session | Date | Frontend | Backend |
+| --- | --- | --- | --- |
+| 1	| 7.10.	| HTML, CSS, Javascript: Semantics, Accessibility, Animation | |
+| 2	| 14.10. |	Good Design, Good Data Viz |	Backend Technologies and Architectures |
+| 3	| 21.10.|	Data Abstraction, Task Abstraction, 4 Levels of Validation | Project Setup |
+| 4	| 28.10.|	Marks and Channels | Testing, Monitoring and Analysis |
+| 5	| 04.11.|	Tabular Data | Data Storage and HTML Forms |
+| 6	| 11.11.|	Spatial Data | Queries and Data Provision |
+| 7	| 18.11.|	Networks and Trees | Telemetry (Logging) |
+| 8	| 25.11.|	Working with Color | Going Live: Continuous Integration (Devenv, Github, Codespaces) |
+| 9	| 2.12. |	Interactivity: Manipulating View, Facets, Reduce, Embed | Subscriber Validation and Rejection |
+| 10 | 	9.12. |	Layout and Grid Systems | Deployments and Zero-Downtime Strategies |
+| 11 | 	16.12. |	Typography	| Error Handling |
+| 12 |	13.1. |	Images and Animation | Building a Real-Time Backend |
+| 13 |	21.1. |		| Securing our Application |
 
 ## Deliverables
 
