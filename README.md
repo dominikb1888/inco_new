@@ -8,7 +8,7 @@ seo:
   name: Innovation and Complexity Management
 ---
 
-# INCO
+# INCO - Innovation and Complexity Management
 
 This class is about exploring complexity and innovation through the lens of advanced interactive data visualization. Understanding how to co-evolve complex ecosystems and how to allow for distributed organizing to happen demands a thorough understanding of data visualization techniques. The course builds on basic knowledge in calculus and software development. It builds the basics for developing smart interactive web-based healthcare data displays.
 
