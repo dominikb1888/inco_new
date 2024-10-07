@@ -1,8 +1,19 @@
-# Session 1 - HTML, CSS and JS
+---
+layout: page
+title: Frontend
+description: The weekly event schedule.
+---
 
-Brief overview on core web technologies.
-30min - HTML 5 - Semantic Tags and Accessibility
-30min - CSS - Responsive Layouts
-30min - JS - Data to Change the DOM: AJAX, WebSockets, HTMX
-30min - SVG - Scalable Vector Graphics
-60min - Hands-on D3.js - Using all of the abvove to create data visualization
+# Session 1 - Intro to Course, Web Technologies and HTML
+
+- Introduction to Course and Sensor Systems Architecture
+- Brief overview on core web technologies.
+- HTML 5 - Semantic Tags and Accessibility
+
+
+# Session 2 - Good Design Designing Responsive Data Viz
+
+- 5min - CSS - Responsive Layouts
+- 10min - JS - Data to Change the DOM: AJAX, WebSockets, HTMX
+- 5min - SVG - Scalable Vector Graphics
+- 40min - Hands-on D3.js - Using all of the abvove to create data visualization
