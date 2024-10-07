@@ -1,0 +1,2 @@
+/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/24W/inco_new/devenv.nix
+/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/24W/inco_new/devenv.yaml

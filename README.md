@@ -28,10 +28,12 @@ This course relies on two streams of content from different resources for each o
 
 ### Backend: Web Application Development
 
-The web application development part of the course closely follows: ["0 to Production in Rust" by Luca Palmieri](http://digital.bib-bvb.de/webclient/DeliveryManager?custom_att_2=simple_viewer&pid=21544849)
+The web application development part of the course closely follows:
+
+["0 to Production in Rust" by Luca Palmieri](http://digital.bib-bvb.de/webclient/DeliveryManager?custom_att_2=simple_viewer&pid=21544849)
 
 - [Web Sockets in Actix](https://agmprojects.com/blog/building-a-rest-and-web-socket-api-with-actix.html)
-
+- [Real-time Communication with Rust](https://www.genxjourney.online/blog/real-time-communication-with-rust?s=03)
 
 
 ### Frontend: Data Visualization
