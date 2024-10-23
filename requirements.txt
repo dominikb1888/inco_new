@@ -1,0 +1,17 @@
+ipython
+rich
+jupyterlab
+numpy
+pandas
+matplotlib
+geojson
+geopandas
+plotly
+seaborn
+flask
+pytest
+ipympl
+ipywidgets
+requests
+python-dotenv
+

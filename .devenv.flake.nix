@@ -1,7 +1,7 @@
 {
   inputs =
     let
-      version = "1.3.0";
+      version = "1.3.1";
 system = "aarch64-darwin";
 devenv_root = "/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/24W/inco_new";
 devenv_dotfile = ./.devenv;
@@ -22,7 +22,7 @@ devenv_istesting = false;
 
       outputs = { nixpkgs, ... }@inputs:
         let
-          version = "1.3.0";
+          version = "1.3.1";
 system = "aarch64-darwin";
 devenv_root = "/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/24W/inco_new";
 devenv_dotfile = ./.devenv;
