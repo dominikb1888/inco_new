@@ -1,2 +1,7 @@
-/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/24W/inco_new/devenv.nix
-/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/24W/inco_new/devenv.yaml
+/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/25W/inco_new/.devenv/flake.json
+/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/25W/inco_new/.devenv.flake.nix
+/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/25W/inco_new/.env
+/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/25W/inco_new/devenv.local.nix
+/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/25W/inco_new/devenv.lock
+/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/25W/inco_new/devenv.nix
+/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/25W/inco_new/devenv.yaml

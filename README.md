@@ -15,9 +15,8 @@ This class is about exploring complexity and innovation through the lens of adva
 
 ## Sessions
 
-- Frontend Lecture: 60min
 - Backend Lecture: 60min
-- Hands-on: 60 min
+- Hands-on: 120 min
 
 - Project Presentation/Feedback (in 2 Sessions) full time
 
@@ -36,24 +35,6 @@ The web application development part of the course closely follows:
 - [Real-time Communication with Rust](https://www.genxjourney.online/blog/real-time-communication-with-rust?s=03)
 
 
-### Frontend: Data Visualization
-
-The data visualization part of the course closely follows:
-
-["Visualization Analysis and Design" by Tamara Munzner](https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=1664615&query=visualization)
-
-
-- [Companion Website](https://www.cs.ubc.ca/~tmm/vadbook/)
-- [Undergraduate Course at UBC](https://www.students.cs.ubc.ca/~cs-436v/22Jan/)
-- [Video Sessions on YouTube](https://www.youtube.com/watch?v=1GhZisgc6DI&list=PLT4XLHmqHJBdB24LAQPk_PV7wrwpJFh5a)
-
-
-
-## Recommended Reading:
-
-- D3.js: [D3 in Depth](https://d3indepth.com/), [D3.js in Action](https://ebookcentral.proquest.com/lib/th-deggendorf/reader.action?docID=6642501&query=d3.js&ppg=1), [Interactive Data Visualization for the Web](https://www.oreilly.com/library/view/interactive-data-visualization/9781491921296/)
-- Python: [Practical Data Science with Python](https://ebookcentral.proquest.com/lib/th-deggendorf/reader.action?docID=6739165), [Python Data Analysis](https://ebookcentral.proquest.com/lib/th-deggendorf/reader.action?docID=6462897)
-
 ## Phases
 
 1. Technical Basics and Use Case Definition (October)
@@ -63,21 +44,21 @@ The data visualization part of the course closely follows:
 
 ## Schedule:
 
-| Session | Date | Frontend | Backend |
-| --- | --- | --- | --- |
-| 1	| 7.10.	| HTML, CSS, Javascript: Semantics, Accessibility, Animation | |
-| 2	| 14.10. |	Good Design, Good Data Viz |	Backend Technologies and Architectures |
-| 3	| 21.10.|	Data Abstraction, Task Abstraction, 4 Levels of Validation | Project Setup |
-| 4	| 28.10.|	Marks and Channels | Testing, Monitoring and Analysis |
-| 5	| 04.11.|	Tabular Data | Data Storage and HTML Forms |
-| 6	| 11.11.|	Spatial Data | Queries and Data Provision |
-| 7	| 18.11.|	Networks and Trees | Telemetry (Logging) |
-| 8	| 25.11.|	Working with Color | Going Live: Continuous Integration (Devenv, Github, Codespaces) |
-| 9	| 2.12. |	Interactivity: Manipulating View, Facets, Reduce, Embed | Subscriber Validation and Rejection |
-| 10 | 	9.12. |	Layout and Grid Systems | Deployments and Zero-Downtime Strategies |
-| 11 | 	16.12. |	Typography	| Error Handling |
-| 12 |	13.1. |	Images and Animation | Building a Real-Time Backend |
-| 13 |	21.1. |		| Securing our Application |
+| Session | Date | DONE | Backend |
+| ---   | ---    | --- | --- |
+|  1	| 10.10. | [ ] | Introduction |
+|  2	| 17.10. | [ ] | Backend Technologies |
+|  3	| 24.10. | [ ] | Architectures |
+|  4	| 31.10. | [ ] | Testing, Monitoring and Analysis |
+|  5	| 07.11. | [ ] | Data Storage and HTML Forms |
+|  6	| 14.11. | [ ] | Queries and Data Provision |
+|  7	| 21.11. | [ ] | Telemetry (Logging) |
+|  8	| 28.11. | [ ] | Going Live: Continuous Integration (Devenv, Github, Codespaces) |
+|  9	| 05.12. | [ ] | Subscriber Validation and Rejection |
+| 10    | 12.12. | [ ] | Deployments and Zero-Downtime Strategies |
+| 11    | 19.12. | [ ] | Error Handling |
+| 12    | 09.01. | [ ] | Building a Real-Time Backend |
+| 13    | 16.01. | [ ] | Securing our Application |
 
 ## Deliverables
 
