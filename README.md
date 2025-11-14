@@ -44,6 +44,8 @@ The web application development part of the course closely follows:
 
 ## Schedule:
 
+
+
 | Session | Date | DONE | Backend |
 | ---   | ---    | --- | --- |
 |  1	| 10.10. | [ ] | Introduction |
@@ -65,17 +67,21 @@ The web application development part of the course closely follows:
 - As part of the course you need to prepare a Web Application with a real-time data visualization project based on your groups health sensor data project in the Media Management Module.
 - The form of delivery is a two-tier architecture with a backend emitting fhir-compliant json and a frontend using d3.js to visualize and interact on the data. The data transmission for the real-time parts may differ (e.g. pure binary).
 
-### DO... (Principles to excel in the class)
+## Development Checklist & Evaluation Criteria
 
-- ...focus on very specific user group and their core job to get done. Understand or imagine every little detail.
-- ...think about the ways your user needs to receive, transform and send data. Try to automate or simplify their lives.
-- ...optimize on all little details and behaviour in your frontend. Make it a joy to use the app.
-- ...use an iterative and cloud-enabled development process. Make it easy to build everywhere, again and again.
+> Levels: **Basic (3.0–4.0)**, **Advanced (2.0–3.0)**, **Excellent (1.0–2.0)**
 
-### DON'T... (Recipe to fail the class)
-- ...try to make the app targeted at too many users and too many of their tasks. One user with one task is enough.
-- ...use a visualization framework other than D3.js. High-level frameworks (Plotly, Charts,js, etc.) do not allow for enough customization. You can use frameworks like React, Vue or Svelte for state management though.
-- ...submit a jupyter notebook. Build a Backend suitable for real-time data transmission from a sensor and have it produce a good selection of aggregated data for you to use in the frontend in additon.
-- ...use an exotic or complicated build processes. I will try to automatically get data from Github Codespaces. If your app does not automatically build there, I cannot look at it.
+| ✅ | **Point** | **Do’s** | **Don’ts** | **Basic (3.0–4.0)** | **Advanced (2.0–3.0)** | **Excellent (1.0–2.0)** |
+|---|-----------|----------|------------|--------------------|------------------------|------------------------|
+| [ ] | **1. Development Environment Setup** | Use Git with meaningful commits; configure hooks; ensure environment portability | Hardcode secrets; ignore version control | Git initialized, commits made, env variables/configs separated, code runs across machines | Hooks for lint/tests; CI/CD pipeline; reproducible environment with Docker/Nix | Fully automated setup including pre-commit hooks, CI/CD, dependency caching, cross-platform reproducibility, automatic environment validation |
+| [ ] | **2. Unit & Integration Testing** | Cover core logic, edge cases, failure paths; test APIs, DB, FHIR | Skip error/edge case tests; brittle test data | Unit + integration tests for core modules and edge cases | High coverage, mock external services, automated test reports | Property-based tests, fuzz testing, continuous regression detection, test coverage analytics integrated with CI/CD |
+| [ ] | **3. Configuration Management** | Separate Dev/Stage/Prod configs; use env variables | Hardcode credentials or paths | Configs exist per environment; app switches manually | Dynamic config loading; secrets managed securely (Vault/KMS) | Fully automated config deployment, validation, secrets rotation; environment isolation; CI/CD integration |
+| [ ] | **4. Logging** | Log important events, errors, key metrics; structured logging | Log sensitive data in plaintext; missing/excessive logs | Logs for errors and key actions; structured with timestamps | Centralized logging, correlation IDs, severity levels, dashboards | HIPAA-compliant logging, real-time anomaly detection, alerting, log-driven decision automation |
+| [ ] | **5. Deployment & System Architecture** | Use containers/virtual envs; modular components | Monolithic deployment; ignore container size/performance | Containerized app; modular architecture; env-specific deployment | Optimized containers; auto-scaling ready; CI/CD pipeline | Microservices with dynamic orchestration, automated scaling, high availability, advanced monitoring, minimal downtime |
+| [ ] | **6. Input Validation & Security** | Validate and sanitize all inputs; reject invalid/malicious data | Trust raw input; allow injections/malformed data | Type, format, and range validation; parameterized queries | Full schema validation against FHIR; protection against SQLi, XSS, buffer overflows | Automated validation pipelines, continuous threat modeling, runtime security monitoring, real-time anomaly detection |
+| [ ] | **7. Error Handling** | Gracefully handle errors; log meaningfully; avoid crashes | Swallow exceptions; expose sensitive info | Errors caught and logged; user messages safe | Centralized error handling; categorized errors; recovery from common failures | Self-healing mechanisms, alerting, retry/backoff, fault isolation in real-time pipelines |
+| [ ] | **8. Authentication & Encryption** | Strong auth and session management; encrypt data in transit & at rest | Hardcoded credentials; weak encryption | Token-based auth; TLS; encrypted storage | Role-based access control, key rotation, audit logging | Zero-trust design; end-to-end encryption; MFA; automated compliance verification; granular auditing |
+| [ ] | **9. Fault-tolerancy** | Handle network/service failures gracefully; retry; isolate failures | Single points of failure; crashes on first error | App recovers from minor errors; basic retry logic | Circuit breakers, fallbacks, retries with backoff, redundancy | Distributed fault-tolerant architecture; auto-healing, load balancing, graceful degradation, continuous monitoring |
+| [ ] | **10. Compliance with Healthcare Data Standards (FHIR)** | Model sensor data using FHIR; validate against schemas | Ignore standards; expose sensitive data without auditing | Data modeled using FHIR resources; basic validation | Full FHIR compliance, schema validation, audit logs | End-to-end FHIR system integration; automated compliance checks; interoperability with external FHIR servers; HIPAA-ready logging, encryption, access control |
 
 
